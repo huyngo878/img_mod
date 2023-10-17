@@ -10,7 +10,7 @@
 
 #### Sample usage: GetPic.DownloadImage("https://example.com/image.jpg", "downloaded_image.jpg")
 
-### 2. Colors
+### 2. [Colors](https://github.com/huyngo878/img_mod/tree/main/Colors)
 
 #### Processes an image and prints the RGB values of each pixel.
 
@@ -18,13 +18,13 @@
 
 #### Downloads an image from a given URL. Sample usage: GetPic.DownloadImage("https://example.com/image.jpg", "downloaded_image.jpg")
 
-### 3. Grayscale
+### 3. [Grayscale](https://github.com/huyngo878/img_mod/tree/main/Grayscale)
 
 #### Converts an image to grayscale.
 
 #### Sample usage: grayscale.ConvertToGrayscale("path_to_image.jpg", "output_image.png")
 
-### 4. Text
+### 4. [Text](https://github.com/huyngo878/img_mod/tree/main/Text)
 
 #### Adds text to an image using the GoFont Regular font.
 
