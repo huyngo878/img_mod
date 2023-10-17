@@ -1,4 +1,4 @@
-package main
+package Text
 
 import (
 	"io/ioutil"
@@ -8,7 +8,7 @@ import (
 	"golang.org/x/image/font/gofont/goregular"
 )
 
-func main() {
+func Text() {
 	const W = 500
 	const H = 300
 

@@ -1,4 +1,4 @@
-package main
+package Grayscale
 
 import (
 	"fmt"
@@ -8,9 +8,9 @@ import (
 	"os"
 )
 
-func main() {
+func Grayscale(inputPath string) {
 	// Open the original image
-	reader, err := os.Open("image.png")
+	reader, err := os.Open(inputPath)
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
 		return

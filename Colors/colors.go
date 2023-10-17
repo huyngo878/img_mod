@@ -1,14 +1,13 @@
-package main
+package Colors
 
 import (
 	"fmt"
 	"image"
-	_ "image/png" // import this package to decode PNGs
 	"os"
 )
 
-func main() {
-	reader, err := os.Open("image.png")
+func Colors(filePath string) {
+	reader, err := os.Open(filePath)
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
 		return
