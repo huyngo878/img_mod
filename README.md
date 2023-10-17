@@ -4,7 +4,7 @@
 
 ## Modules:
 
-### 1. GetPic
+### 1. (GetPic)[https://github.com/huyngo878/img_mod/tree/main/GetPic]
 
 #### Downloads an image from a given URL.
 
